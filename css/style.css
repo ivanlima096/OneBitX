@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap");
+* {
+  color: white;
+  font-family: "Chivo Mono", monospace;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.header #navItem:hover {
+  color: #b9b9b9;
+  scale: 1.05;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 40px;
+}
+
+#button {
+  padding: 15px 35px;
+}
+
+.footer {
+  background-color: #111111;
+  height: 10vh;
+  font-size: 12px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer i {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.footer i:hover {
+  color: #b9b9b9;
+  scale: 1.05;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+  scale: 1.05;
+}
+.footer .copyOBC {
+  color: #555252;
+  scale: 1.05;
+}
+
+@media (s405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (width <= 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.container00.container01 {
+  background-image: url(../../imgs/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../imgs/home/03.jpg);
+}
+.container00.container03 {
+  background-image: url(../../imgs/home/02.gif);
+}
+.container00.container04 {
+  background-image: url(../../imgs/home/04.jpg);
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+@media (width <= 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (width <= 380px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
