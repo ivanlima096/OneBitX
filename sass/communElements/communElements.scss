@@ -31,6 +31,7 @@
 
 #button {
   padding: $padding-button;
+  border: 2px solid white;
 }
 
 .footer {
@@ -70,8 +71,15 @@
 }
 
 // RESPONSIVIDADE
+@media (width<=449px) {
+  .downloadDesc {
+    button {
+      margin: 10px 0px;
+    }
+  }
+}
 
-@media (s405px) {
+@media (width<=405px) {
   .logoPc {
     width: 180px;
     margin-top: 15px;
