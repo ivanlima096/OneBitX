@@ -1,0 +1,149 @@
+.container00 {
+  &.container08 {
+    background-image: url(../../imgs/humanFlight/01.jpg);
+  }
+
+
+  &.container09 {
+    background-image: url(../../imgs/humanFlight/02.jpg);
+  }
+
+
+  &.container10 {
+    background-image: url(../../imgs/humanFlight/03.jpg);
+  }
+
+
+  &.container11 {
+    background-image: url(../../imgs/humanFlight/04.jpg);
+  }
+
+
+  &.container12 {
+    background-image: url(../../imgs/humanFlight/05.jpg);
+  }
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .titleHuman {
+    font-size: 150px;
+    font-weight: bold;
+  }
+
+  .subtitleHuman {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 300;
+  }
+}
+
+.earthDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .textDescEarth {
+    color: $table-item;
+    font-weight: 400;
+    font-size: 20px;
+    width: 70%;
+  }
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+@media (width<=1000px) {
+  .container01Content {
+    .titleHuman {
+      font-size: 90px;
+    }
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .earthDesc {
+
+    .textDescEarth {
+      color: $table-item;
+      font-weight: 400;
+      font-size: 16px;
+      width: auto;
+    }
+  }
+
+  .containerRightContent,
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+}
+
+@media (width <=610px) {
+  .container01Content {
+    .titleHuman {
+      font-size: 60px;
+    }
+
+    .subtitleHuman {
+      font-size: 24px;
+    }
+  }
+
+  .containerRightContent,
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+
+  .titleSection {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 0.7rem;
+  }
+}
+
+@media (width <=440px) {
+  .container01Content {
+    .titleHuman {
+      font-size: 40px;
+    }
+
+    .subtitleHuman {
+      font-size: 22px;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+
+}

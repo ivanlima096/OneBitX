@@ -12,6 +12,7 @@
 
   <!-- Lib Animation Text CSS-->
 
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Favicon -->
   <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
 
@@ -22,8 +23,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
     defer></script>
-
-  <!-- Lib Animation Text JS -->
 
   <!-- Link do CSS -->
   <link rel="stylesheet" href="./css/style.css">
@@ -59,7 +58,7 @@
 
     </div>
 
-    <div class="container titlePadding">
+    <div class="container titlePadding" data-aos="fade-up" data-aos-duration="1500">
       <p class="h5" id="launchComing">LANÇAMENTO A CAMINHO</p>
 
       <p class="h1 mediumTitle">MISSÃO EQUIPE-3</p>
@@ -74,7 +73,7 @@
   </div>
 
   <div class="container-fluid container00 container02">
-    <div class="container titlePadding">
+    <div class="container titlePadding" data-aos="fade-right" data-aos-duration="1500">
       <p class="h5" id="launchComing">MISSÃO CONCLUÍDA</p>
 
       <p class="h1 shortTitle">MISSÃO EQUIPE-2 RETORNOU PARA A TERRA</p>
@@ -86,7 +85,7 @@
   </div>
 
   <div class="container-fluid container00 container03">
-    <div class="container titlePadding">
+    <div class="container titlePadding" data-aos="fade-down" data-aos-duration="1500">
       <p class="h5" id="launchComing">MISSÃO CONCLUÍDA</p>
 
       <p class="h1 shortTitle">DRAGON RETORNOU PARA A TERRA</p>
@@ -98,7 +97,7 @@
   </div>
 
   <div class="container-fluid container00 container04">
-    <div class="container titlePadding">
+    <div class="container titlePadding" data-aos="fade-down-right" data-aos-duration="1500">
       <p class="h1 mediumTitle">STARSHIP POUSA ASTRONAUTAS DA NASA NA LUA</p>
 
       <button type="button" class="btn btn-outline-light mt-5" id="button">
@@ -114,8 +113,17 @@
         class="bi bi-instagram"></i>Instagram</a>
     <a href="https://www.linkedin.com/in/ivan-lima-dev/" target="blank" class="me-4"><i
         class="bi bi-linkedin"></i>LinkedIn</a>
-    <a href="https://github.com/ivanlima096" target="blank"><i class="bi bi-github"></i>Github</a>
+    <a href="https://github.com/ivanlima096" target="blank" class="me-5"><i class="bi bi-github"></i>Github</a>
+    <a href="#" class="ms-5"><i class="bi bi-arrow-up-circle"></i>Top</a>
   </footer>
+
+  <!-- Lib Animation Text JS -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>

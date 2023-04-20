@@ -90,28 +90,7 @@
   color: rgba(255, 255, 255, 1)
 }
 
-.downloadDesc {
-  background-color: #111111;
-  height: 90vh;
-  padding-top: 240px;
 
-  a {
-    text-decoration: none;
-    border-bottom: 1px solid white;
-    color: white;
-
-    &:hover {
-      color: $link-hover;
-      border-bottom: 1px solid $link-hover;
-    }
-  }
-
-  button {
-    border: 2px solid white;
-    margin-right: 10px;
-    width: 250px;
-  }
-}
 
 @media (width<=768px) {
   .numbers {

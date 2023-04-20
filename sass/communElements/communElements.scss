@@ -34,6 +34,31 @@
   border: 2px solid white;
 }
 
+.downloadDesc {
+  background-color: #111111;
+  height: 90vh;
+  padding-top: 240px;
+
+
+
+  button {
+    border: 2px solid white;
+    margin-right: 10px;
+    width: 250px;
+  }
+}
+
+.emailObc {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  color: white;
+
+  &:hover {
+    color: $link-hover;
+    border-bottom: 1px solid $link-hover;
+  }
+}
+
 .footer {
   background-color: #111111;
   height: 10vh;
@@ -62,6 +87,7 @@
       color: $link-hover;
       scale: (1.05);
     }
+
   }
 
   .copyOBC {
@@ -75,6 +101,32 @@
   .downloadDesc {
     button {
       margin: 10px 0px;
+    }
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    height: 30vh;
+    font-size: 12px;
+    font-weight: 200;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      font-size: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.8rem;
     }
   }
 }
